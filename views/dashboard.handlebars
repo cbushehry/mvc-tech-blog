@@ -1,0 +1,21 @@
+<section>
+  <h2>Your Posts</h2>
+
+  <div class="wrapper">
+    <button onclick="window.location.href='/dashboard/full'" type="submit" class="btn btn-success btn-lg">Create Post</button>
+  </div>
+
+{{#if posts.length}}
+
+    {{#each posts as |post|}}
+
+    <div class="wrapper">
+      {{> post-info post}}
+      <button onclick="window.location.href='/dashboard/edit/{{post.id}}'" type="submit" class="edit-link btn btn-primary">Edit Post</button>
+    </div>
+
+    {{/each}}
+
+</section>
+{{/if}}
+<br>
