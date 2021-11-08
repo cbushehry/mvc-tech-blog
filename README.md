@@ -4,7 +4,7 @@
  - This is a fully functional full-stack application where the user can publish articles, blog posts, and their thought and opinions on whatever subject they are reviewing. This application was built using bcrypt, sequelize, sequelize-sessions, dotenv, express, express-handlebars,express-sessions and mysql2.
 
 2. WHERE TO GO
- - This application is deployed at 
+ - This application is deployed on heroku at   https://obscure-falls-66598.herokuapp.com/
 
 3. FEATURES
  - Login/Logout
